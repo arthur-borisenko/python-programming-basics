@@ -22,7 +22,5 @@ def reverseStr(string:str):
     for letter in strList:
         rstring= rstring + letter
     return rstring
-b=int(input("enter base(1-9)"))
-
 x=int(input("enter number to convert: "))
 print(reverseStr(toBinary(x)))
